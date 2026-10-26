@@ -1,0 +1,13 @@
+Generate a minimal, high-contrast monogram logo for the web studio "Comfibo".
+
+Requirements:
+- Use only the letter "C" as a geometric monogram
+- Serif display form inspired by classic Roman capitals (e.g. Cormorant Garamond)
+- High-contrast solid mark: solid charcoal/soft black (#17150f) on transparent background, or reversed solid ivory (#f5f1e8) on charcoal for dark use
+- Elegant, restrained, editorial - not playful, not rounded, not techy/modern sans-heavy, not gradient, not drop shadow, not outline/glow
+- Tight, balanced letterforms with refined curves and minimal terminals
+- Scalable: clean at 16x16, 32x32, 48x48, 256x256, SVG-friendly
+- Avoid icon shapes, swooshes, frames, dots, abstract symbols, wordmark required (monogram only)
+- Avoid AI-looking decorative flourishes
+
+Deliver as SVG (primary), and also provide PNG at 512x512 and 1024x1024 if possible.
