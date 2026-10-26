@@ -1,0 +1,48 @@
+COMFIBO — HERO BACKGROUND VIDEO PROMPT (Seedance)
+=================================================
+
+SETTINGS
+  Aspect ratio : 16:9
+  Resolution   : 1080p
+  Duration     : 5 seconds
+  Audio        : none
+  Cuts         : single take, no edits
+
+
+RECOMMENDED PROMPT — paper and ink macro
+-----------------------------------------
+Single continuous macro shot of thick uncoated cream cotton paper filling the
+entire frame. A drop of dark ink lands at the paper's edge and slowly bleeds
+into the fibres, branching into fine capillary threads. Soft raking light from
+the upper left grazes the surface, revealing paper grain and deckled fibres.
+Very slow, almost imperceptible camera drift to the right. Shallow depth of
+field, far edge falling softly out of focus. Restrained warm palette: ivory
+and bone white, deep charcoal ink, faint ochre warmth in the highlights. Macro
+lens, natural light, fine film grain. Calm, contemplative, editorial mood.
+5 seconds, single take, no cuts, no text, no watermarks, no people, no hands.
+
+
+ALTERNATE PROMPT — studio desk
+-------------------------------
+Slow overhead shot of a quiet design studio desk in warm morning light. Cream
+paper, a printed website layout, a black fountain pen resting on a folded
+broadsheet. Dust drifting through a soft light beam. Camera drifts very slowly
+and smoothly across the surface. Shallow depth of field, muted ivory and
+charcoal palette with faint ochre highlights. 35mm film grain, natural window
+light, restrained and calm. 5 seconds, single take, no cuts, no text, no
+logos, no people, no hands.
+
+
+SELECTION NOTES
+  - Generate 3-4 takes, choose the calmest. Almost nothing should move.
+  - Avoid fast motion, lens flares, particles, or any recognisable subject
+    moving through frame.
+  - Avoid faces and hands entirely: the most common AI artefacts.
+  - The video sits behind a headline, so composition must stay uniform with
+    no strong focal point pulling the eye away from the text.
+
+
+WHEN THE FILE IS READY
+  Drop the video at:  public/hero.mp4
+  Drop the poster at: public/hero-poster.jpg   (first frame, exported still)
+  Then wire it into the hero section.

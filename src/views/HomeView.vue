@@ -60,8 +60,28 @@ const process = [
 <template>
   <div>
     <!-- Hero -->
-    <section class="shell pt-16 pb-20 sm:pt-28 sm:pb-28">
-      <div class="grid gap-14 lg:grid-cols-12 lg:items-end lg:gap-16">
+    <section class="relative overflow-hidden">
+      <img
+        src="/hero-poster.jpg"
+        alt=""
+        aria-hidden="true"
+        class="hero-media hero-still"
+      />
+      <video
+        class="hero-media hero-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        poster="/hero-poster.jpg"
+        aria-hidden="true"
+      >
+        <source src="/hero.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-scrim" aria-hidden="true"></div>
+
+      <div class="shell relative pt-16 pb-20 sm:pt-28 sm:pb-28">
+        <div class="grid gap-14 lg:grid-cols-12 lg:items-end lg:gap-16">
         <div class="lg:col-span-8">
           <p class="eyebrow text-[var(--color-muted)]">Web design and development</p>
           <h1 class="mt-8 text-5xl leading-[1.0] sm:text-6xl lg:text-7xl">
@@ -93,6 +113,7 @@ const process = [
             Small by design. Every project is handled directly.
           </p>
         </aside>
+        </div>
       </div>
     </section>
 
