@@ -1,5 +1,5 @@
 <script setup>
-import { reactive } from 'vue'
+import { onMounted, reactive, ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import { projects, testimonials } from '../data/work.js'
 import SiteImage from '../components/SiteImage.vue'
@@ -9,6 +9,24 @@ const broken = reactive({})
 function markBroken(src) {
   broken[src] = true
 }
+
+const heroVideo = ref(null)
+
+onMounted(() => {
+  const el = heroVideo.value
+  if (!el) return
+
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  if (reduced) return
+
+  el.muted = true
+  el.defaultMuted = true
+  el.volume = 0
+  const attempt = el.play()
+  if (attempt && typeof attempt.catch === 'function') {
+    attempt.catch(() => {})
+  }
+})
 
 const capabilities = [
   {
@@ -68,11 +86,13 @@ const process = [
         class="hero-media hero-still"
       />
       <video
+        ref="heroVideo"
         class="hero-media hero-video"
         autoplay
         muted
         loop
         playsinline
+        preload="auto"
         poster="/hero-poster.jpg"
         aria-hidden="true"
       >
