@@ -66,22 +66,27 @@ export const initiative = {
 
   steps: [
     {
+      numeral: 'I',
       title: 'Apply',
       body: 'Tell us about your business and what you need.',
     },
     {
+      numeral: 'II',
       title: 'Discuss',
       body: "We'll review your requirements and determine whether your project is a good fit.",
     },
     {
+      numeral: 'III',
       title: 'Agree',
       body: "If selected, we'll confirm the deliverables, timeline, responsibilities and any additional costs in writing.",
     },
     {
+      numeral: 'IV',
       title: 'Build',
       body: "We'll design, develop and review your website with you.",
     },
     {
+      numeral: 'V',
       title: 'Launch',
       body: "Once approved, we'll help get your website online and, with your permission, showcase the completed project in our portfolio.",
     },

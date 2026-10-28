@@ -213,12 +213,12 @@ async function handleSubmit() {
         <div class="lg:col-span-8">
           <ol class="border-t border-[var(--color-line)]">
             <li
-              v-for="(step, i) in initiative.steps"
-              :key="step.title"
+              v-for="step in initiative.steps"
+              :key="step.numeral"
               class="grid gap-4 border-b border-[var(--color-line)] py-7 sm:grid-cols-[3rem_10rem_1fr] sm:gap-6"
             >
               <span class="font-display text-3xl leading-none text-[var(--color-gold)]">
-                {{ String(i + 1).padStart(2, '0') }}
+                {{ step.numeral }}
               </span>
               <h3 class="text-2xl">{{ step.title }}</h3>
               <p class="leading-7 text-[var(--color-muted)]">{{ step.body }}</p>
