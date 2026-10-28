@@ -127,20 +127,7 @@ export const projects = [
   },
 ]
 
-export const testimonials = [
-  {
-    quote: '[Replace with a sentence from your client about working with you.]',
-    name: '[Client name]',
-    company: '[Business name]',
-    photo: '/portraits/client-one.jpg',
-  },
-  {
-    quote: '[Replace with a second short quote. Two lines is plenty.]',
-    name: '[Client name]',
-    company: '[Business name]',
-    photo: '/portraits/client-two.jpg',
-  },
-]
+export const testimonials = []
 
 export function getProject(slug) {
   return projects.find((project) => project.slug === slug)

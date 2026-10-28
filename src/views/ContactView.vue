@@ -1,5 +1,6 @@
 <script setup>
-import { ref } from 'vue'
+import { computed, ref } from 'vue'
+import { submitContact, isConfigured, mailtoHref, FALLBACK_EMAIL } from '../lib/api.js'
 
 const form = ref({
   name: '',
@@ -9,15 +10,40 @@ const form = ref({
 })
 
 const submitted = ref(false)
+const sending = ref(false)
+const failed = ref(false)
 
 const details = [
-  { label: 'Email', value: 'hello@comfibo.com', href: 'mailto:hello@comfibo.com' },
+  { label: 'Email', value: FALLBACK_EMAIL, href: `mailto:${FALLBACK_EMAIL}` },
   { label: 'Response', value: 'Within one business day' },
   { label: 'Obligation', value: 'None — enquiries are free' },
 ]
 
-function handleSubmit() {
-  submitted.value = true
+const fallbackLink = computed(() =>
+  mailtoHref(
+    `Website enquiry — ${form.value.business || form.value.name}`,
+    [
+      `Name: ${form.value.name}`,
+      `Email: ${form.value.email}`,
+      `Business: ${form.value.business}`,
+      '',
+      form.value.message,
+    ].join('\n'),
+  ),
+)
+
+async function handleSubmit() {
+  sending.value = true
+  failed.value = false
+
+  try {
+    await submitContact({ ...form.value })
+    submitted.value = true
+  } catch {
+    failed.value = true
+  } finally {
+    sending.value = false
+  }
 }
 </script>
 
@@ -98,8 +124,22 @@ function handleSubmit() {
               ></textarea>
             </div>
 
-            <button type="submit" class="btn btn-solid">
-              <span>Send enquiry</span>
+            <div
+              v-if="failed"
+              class="border border-[var(--color-accent)] bg-[var(--color-paper-deep)] p-6"
+            >
+              <p class="eyebrow text-[var(--color-accent)]">Could not send</p>
+              <p class="mt-3 text-sm leading-6 text-[var(--color-ink-soft)]">
+                The form could not reach us. Please send your message by email instead — everything
+                you entered is ready below.
+              </p>
+              <a :href="fallbackLink" class="link-underlined mt-5">
+                <span>Open in email</span>
+              </a>
+            </div>
+
+            <button type="submit" class="btn btn-solid" :disabled="sending">
+              <span>{{ sending ? 'Sending…' : 'Send enquiry' }}</span>
               <svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.5 9.5L9.5 2.5M9.5 2.5H4.5M9.5 2.5V7.5" />
               </svg>

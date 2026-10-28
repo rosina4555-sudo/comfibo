@@ -1,0 +1,241 @@
+The programme should be a limited website initiative under your existing agency, designed to help selected businesses get a professional website while helping your agency build a stronger portfolio.
+
+Since you're already contacting a potential client on WhatsApp and your agency website isn't finished, let's make the programme something you can explain confidently now and feature on your website when it's ready.
+
+The key is to make the offer attractive without committing yourself to unlimited free work.
+
+# 1. Programme strategy
+
+For now, I'll use Comfibo as the agency name. The programme should have its own simple name, but it doesn't need a separate brand.
+
+PROPOSED PROGRAMME
+
+# Comfibo Small Business Website Initiative
+
+We help selected small businesses establish a professional online presence by providing website design and development at no cost in exchange for a portfolio collaboration.
+
+Free development
+
+Limited projects
+
+Real businesses
+
+## The objectives
+
+1. Build a portfolio of real business websites across selected industries.
+2. Gain testimonials and permission to showcase completed projects.
+3. Establish relationships with business owners who may refer future clients.
+4. Build trust with future paying clients by demonstrating your actual work.
+
+## Who qualifies?
+
+Prioritize businesses that:
+
+- Are already operating or have a genuine business ready to launch.
+- Don't have a website, or have a website that needs a substantial redesign.
+- Have a clear use for a website.
+- Can provide their business information, photographs and other required content.
+- Are willing to collaborate throughout the project.
+- Agree to the project scope and portfolio terms before work begins.
+
+Don't automatically accept everyone. You choose the businesses based on fit, feasibility and portfolio value.
+
+## What the selected business receives
+
+For the initial programme, keep the offer standardized.
+
+| Included               | Scope                                                         |
+| ---------------------- | ------------------------------------------------------------- |
+| Design and development | One professional business website                             |
+| Pages                  | Up to 5 agreed pages                                          |
+| Responsive layout      | Mobile, tablet and desktop                                    |
+| Business information   | About, services/products and contact details                  |
+| Contact options        | WhatsApp link or contact form, where appropriate              |
+| Basic SEO setup        | Page titles, descriptions and search-engine indexing settings |
+| Revisions              | 2 reasonable rounds of revisions                              |
+| Launch                 | Deployment assistance on an agreed hosting platform           |
+
+You can adjust the package for a specific business, but agree on the scope before accepting the project.
+
+### What is not automatically included?
+
+- Domain registration and renewal.
+- Paid hosting or premium software.
+- E-commerce and online payment integration.
+- Custom web applications or complex booking systems.
+- Copywriting, professional photography and ongoing content creation.
+- Unlimited revisions.
+- Ongoing maintenance and future feature requests.
+
+If you decide to cover any of these costs for a particular project, state that explicitly.
+
+## What Comfibo receives
+
+- Permission to display the completed website in its portfolio.
+- Permission to identify the business as a project completed by Comfibo.
+- Honest feedback about the collaboration.
+- A testimonial if the business is satisfied and willing to provide one.
+
+Do not require a positive testimonial. The business should be free to give honest feedback, and portfolio use should be covered by clear, written consent.
+
+# 2. The programme workflow
+
+Step 1: Find a suitable business
+
+Contact businesses directly through WhatsApp, Instagram, email or personal introductions.
+
+Step 2: Introduce the opportunity
+
+Explain the free development offer and ask whether a website would be useful to them.
+
+Step 3: Qualify the business
+
+Understand their needs, review the proposed scope and confirm they can provide the required materials.
+
+Step 4: Agree on the terms
+
+Document deliverables, deadlines, revisions, costs, ownership and portfolio permissions before starting.
+
+Step 5: Design, build and launch
+
+Develop the website, collect feedback, test it and hand it over according to the agreement.
+
+Step 6: Complete the portfolio case study
+
+Request honest feedback, obtain any required permissions and publish the project with screenshots and a description of the work.
+
+My recommendation is to start with two or three projects maximum. Finish those well before expanding the programme.
+
+# 3. The website page to build
+
+Create a dedicated page on your agency website, such as `/website-initiative`. Your normal homepage should still focus on Comfibo's professional web design services. This page explains the special programme to interested businesses.
+
+Here is the copy you can use.
+
+# Comfibo Small Business Website Initiative
+
+## Your business deserves a professional online presence.
+
+We're offering a limited number of businesses the opportunity to get a professionally designed website at no development cost.
+
+At Comfibo, we're growing our portfolio by partnering with real businesses and helping them establish a stronger online presence. We want to work with businesses that have something valuable to offer and would benefit from a dedicated website.
+
+**Get a professional business website without paying for development.**
+
+[Apply for the Initiative]
+
+## What's included?
+
+Every selected business receives a website tailored to its needs.
+
+- **Professional design:** A website designed to reflect your business and brand.
+- **Mobile-friendly experience:** A layout that works across phones, tablets and desktops.
+- **Essential business pages:** Information about your business, products or services, and contact details.
+- **Customer contact options:** WhatsApp integration or a contact form, where appropriate.
+- **Basic SEO setup:** Essential page metadata and search-engine indexing configuration.
+- **Launch assistance:** Help getting your completed website online.
+
+Each project has an agreed scope. Advanced features, paid services and additional functionality are not automatically included.
+
+## Who can apply?
+
+This initiative is intended for genuine small businesses that want to strengthen their online presence.
+
+We welcome businesses that:
+
+- Are already operating or preparing to launch.
+- Need a new website or a substantial website redesign.
+- Can provide the information and materials needed for their website.
+- Are willing to collaborate throughout the project.
+
+We review applications and select projects based on suitability, feasibility and the value they can bring to both parties.
+
+## Why are we offering this?
+
+We're building Comfibo's portfolio through real-world projects and meaningful business relationships.
+
+Selected businesses receive website design and development at no cost. In return, we ask for permission to showcase the completed project in our portfolio and honest feedback about the experience.
+
+A testimonial is welcome if you're satisfied with the work, but we don't require positive reviews.
+
+## How does it work?
+
+**1. Apply:** Tell us about your business and what you need.
+
+**2. Discuss:** We'll review your requirements and determine whether your project is a good fit.
+
+**3. Agree:** If selected, we'll confirm the deliverables, timeline, responsibilities and any additional costs in writing.
+
+**4. Build:** We'll design, develop and review your website with you.
+
+**5. Launch:** Once approved, we'll help get your website online and, with your permission, showcase the completed project in our portfolio.
+
+## Is everything completely free?
+
+Website design and development are free for selected participants within the agreed scope.
+
+Domain registration, hosting, premium software, third-party services and ongoing maintenance may involve separate costs. These will be explained and agreed upon before work begins.
+
+## Ready to give your business a stronger online presence?
+
+Tell us a little about your business and what you'd like your website to achieve.
+
+We'll review your application and contact you if your business is a suitable fit for the initiative.
+
+[Apply Now]
+
+*Participation is limited. Submitting an application does not guarantee selection.*
+
+### What should the application form collect?
+
+Keep it short enough that a business owner can complete it on a phone.
+
+- Business name
+- Owner or contact person's name
+- WhatsApp number or email
+- Business industry
+- Current website, if any
+- What they want the website to achieve
+- Brief description of the website they need
+
+Include a consent checkbox for contacting the applicant about their application. Obtain separate permission for portfolio use in the project agreement rather than treating the application as blanket consent.
+
+# 4. What to tell your WhatsApp prospect right now
+
+Don't wait for the agency website to be finished. You can introduce the offer personally and send them the programme page later.
+
+Hello, I wanted to ask if your business currently has a website or if you've been considering getting one.
+
+I'm building Comfibo, a web design agency, and we're selecting a few businesses to receive professional website design and development at no cost as part of our portfolio-building initiative.
+
+If you're interested, I'd love to learn a little about your business and see whether it would be a good fit.
+
+If they express interest, ask what their business does and what they'd want the website to accomplish. Don't promise acceptance until you've assessed the project.
+
+# 5. Your immediate action plan
+
+### Launch checklist
+
+0 of 5
+
+Finish the agency homepage
+
+Show your existing projects, services and contact details.
+
+Add the initiative page
+
+Use the copy above and a simple application form.
+
+Prepare a short project agreement
+
+Define scope, costs, revisions, ownership and portfolio permission.
+
+Contact your current prospect
+
+Start the conversation now; you don't need the website to be finished.
+
+Select your first two or three businesses
+
+Prioritize projects that will make strong portfolio case studies.
+
+The most important thing: Keep the programme as a controlled way to build Comfibo's credibility, not an open-ended promise to build free websites for anyone. Every project should have a clear scope, a realistic deadline and a result worth showcasing.

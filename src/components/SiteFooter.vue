@@ -46,6 +46,14 @@ const services = [
                 {{ link.label }}
               </router-link>
             </li>
+            <li>
+              <router-link
+                to="/initiative"
+                class="text-[0.98rem] text-[var(--color-accent)] transition hover:text-[var(--color-ink)]"
+              >
+                Free Website Initiative
+              </router-link>
+            </li>
           </ul>
         </div>
 

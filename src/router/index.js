@@ -16,6 +16,12 @@ const router = createRouter({
       meta: { title: 'Services — Comfibo' },
     },
     {
+      path: '/initiative',
+      name: 'initiative',
+      component: () => import('../views/InitiativeView.vue'),
+      meta: { title: 'Small Business Website Initiative — Comfibo' },
+    },
+    {
       path: '/work/:slug',
       name: 'work-detail',
       component: () => import('../views/WorkDetailView.vue'),

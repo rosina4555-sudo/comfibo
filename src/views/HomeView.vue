@@ -3,6 +3,7 @@ import { onMounted, reactive, ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import { projects, testimonials } from '../data/work.js'
 import SiteImage from '../components/SiteImage.vue'
+import InitiativeBanner from '../components/InitiativeBanner.vue'
 
 const broken = reactive({})
 
@@ -77,6 +78,8 @@ const process = [
 
 <template>
   <div>
+    <InitiativeBanner />
+
     <!-- Hero -->
     <section class="relative overflow-hidden">
       <img
@@ -264,8 +267,7 @@ const process = [
       </div>
     </section>
 
-    <!-- Testimonials -->
-    <section class="shell py-20 sm:py-28">
+    <section v-if="testimonials.length" class="shell py-20 sm:py-28">
       <div class="grid gap-12 lg:grid-cols-12 lg:gap-16">
         <div class="lg:col-span-4">
           <p class="eyebrow text-[var(--color-muted)]">In their words</p>
